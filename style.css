@@ -7,6 +7,11 @@ body {
     display: flex;
 }
 
+.flexc {
+    display: flex;
+    flex-direction: column;
+}
+
 .between {
     justify-content:space-between;
 }
@@ -49,8 +54,9 @@ button {
     border-radius: 5px;
     padding: 5px 15px;
     color: white;
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
     border: none;
 }
 
@@ -77,4 +83,36 @@ button:hover {
 
 .header {
     padding: 10px 150px 50px;
+}
+
+.content {
+    flex-direction: column;
+    padding: 0px 150px;
+}
+
+.info-title {
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: solid #3882F6;
+    border-radius: 15px;
+}
+
+.illustration {
+    justify-content: space-evenly;
+}
+
+.txt {
+    margin-top: 10px;
+    width: 100px;
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: center;
 }
